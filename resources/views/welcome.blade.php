@@ -86,9 +86,7 @@
 
                 <div class="links">
                     <a href="https://rootpixel.net">Webpage</a>
-                    <a href="https://rootpixel.net/contact">COntact</a>
-                    
-                    <a href="https://forge.laravel.com">Forge</a>
+                    <a href="https://rootpixel.net/contact">COntact</a> 
                     <a href="https://github.com/jeroresin/rootpixel_final">GitHub</a>
                 </div>
             </div>
