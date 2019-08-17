@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Auth;
 use Illuminate\Http\Request;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
@@ -16,7 +16,8 @@ public function __construct()
 }
 
 public function index(){
-      return view('admin.home');
+      $users = \App\User::all();
+      return view('admin.home', compact('users'));
 }
 
 public function showLoginForm()
